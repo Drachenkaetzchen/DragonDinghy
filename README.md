@@ -1,0 +1,1 @@
+DragonDinghy is a small expansion board for Klipper. Your main ship is damaged and lost some of it's functionality? DragonDinghy has you covered. 4 fan Ports (2x GND-switched with tacho, 2x 4-wire fan ports), 4x Neopixel outputs, 9 thermistor inputs, 2x I²C ports, 12V 2A and 5V 2A voltage regulator onboard. Can be operated via USB or CAN

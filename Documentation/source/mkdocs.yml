@@ -1,0 +1,36 @@
+site_name: DragonDinghy
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Dark Mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to Light Mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+nav:
+  - Getting Started: getting_started.md
+  - Troubleshooting : troubleshooting.md
+  - Specifications: specifications.md
+  - Known Issues: known_issues.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - attr_list
