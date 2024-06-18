@@ -2,6 +2,9 @@ site_name: DragonDinghy
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  features:
+    - navigation.top
+    - navigation.tabs
   palette:
     - scheme: default
       primary: deep purple
@@ -24,6 +27,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 nav:
+  - Home: index.md
   - Getting Started: getting_started.md
   - Troubleshooting : troubleshooting.md
   - Specifications: specifications.md
