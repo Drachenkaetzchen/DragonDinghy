@@ -20,6 +20,9 @@ This is the very first revision, shipped to testers only.
 #### Issues that need to be reworked
 - Wrong footprint for the constant current mirror
 - Wrong footprint for the reverse polarity protection P-channel mosfet
+- Replace 4 pin input connector with an option for a 6 pin input connector, so that 12V and 5V can be supplied
+  externally without the need for the on-board step-down converters - saves a bit of cost and the board can be provided
+  in 2 variants, depending on the needs of the user
 
 #### QoL issues
 - RGB indicator LEDs are very bright
