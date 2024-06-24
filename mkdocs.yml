@@ -28,7 +28,9 @@ theme:
         name: Switch to system preference
 nav:
   - Home: index.md
-  - Getting Started: getting_started.md
+  - Guide:
+    - Getting Started: getting_started.md
+    - Flashing: flashing.md
   - Troubleshooting : troubleshooting.md
   - Specifications: specifications.md
   - Known Issues: known_issues.md
@@ -38,3 +40,10 @@ markdown_extensions:
   - pymdownx.superfences
   - md_in_html
   - attr_list
+  - abbr
+  - footnotes
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.snippets:
+      auto_append:
+        - docs/includes/abbreviations.md
