@@ -1,0 +1,122 @@
+[mcu dinghy]
+#serial: 
+#canbus_uuid: 
+
+[temperature_sensor f0]
+sensor_type: BME280
+#i2c_address:
+#   Default is 118 (0x76). The BMP180, BMP388 and some BME280 sensors
+#   have an address of 119 (0x77).
+i2c_mcu: dinghy
+i2c_bus: spi1
+
+[temperature_sensor f1]
+sensor_type: BME280
+i2c_software_scl_pin: PB2
+i2c_software_sda_pin: PB3
+
+[temperature_sensor th0]
+sensor_type: Generic 3950
+pullup_resistor: 2200
+sensor_pin: PA0
+
+[temperature_sensor th1]
+sensor_type: Generic 3950
+pullup_resistor: 2200
+sensor_pin: PA1
+
+[temperature_sensor th2]
+sensor_type: Generic 3950
+pullup_resistor: 2200
+sensor_pin: PA2
+
+[temperature_sensor th3]
+sensor_type: Generic 3950
+pullup_resistor: 2200
+sensor_pin: PA3
+
+[temperature_sensor th4]
+sensor_type: PT1000
+pullup_resistor: 2200
+sensor_pin: PB0
+
+[temperature_sensor th5]
+sensor_type: ATC Semitec 104NT-4-R025H42G
+pullup_resistor: 2200
+sensor_pin: PA5
+
+[temperature_sensor th6]
+sensor_type: Generic 3950
+pullup_resistor: 2200
+sensor_pin: PA6
+
+[temperature_sensor th7]
+sensor_type: Generic 3950
+pullup_resistor: 2200
+sensor_pin: PA7
+
+[temperature_sensor th8]
+sensor_type: Generic 3950
+pullup_resistor: 2200
+sensor_pin: PB1
+
+
+[neopixel rgb0]
+pin: PB10
+color_order: GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW
+chain_count: 9
+initial_red: 0.1
+initial_green: 0
+initial_blue: 0
+initial_white: 0.1
+
+[neopixel rgb1]
+pin: PB11
+color_order: GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW
+chain_count: 9
+initial_red: 0.1
+initial_green: 0
+initial_blue: 0
+initial_white: 0.1
+
+[neopixel rgb2]
+pin: PB12
+color_order: GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW
+chain_count: 9
+initial_red: 0.1
+initial_green: 0
+initial_blue: 0
+initial_white: 0.1
+
+[neopixel rgb3]
+pin: PB13
+color_order: GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRB, GRBW
+chain_count: 9
+initial_red: 0.1
+initial_green: 0
+initial_blue: 0
+initial_white: 0.1
+
+[fan_generic fan0]
+pin: PA8
+tachometer_pin: PC13
+
+[fan_generic fan1]
+pin: PB4
+tachometer_pin: PC14
+
+[fan_generic fan2]
+pin: PA4
+tachometer_pin: PC15
+tachometer_ppr: 2
+tachometer_poll_interval: 0.001
+cycle_time: 0.00004
+hardware_pwm: true
+
+
+[fan_generic fan3]
+pin: PB14
+tachometer_pin: PB15
+
+
+    

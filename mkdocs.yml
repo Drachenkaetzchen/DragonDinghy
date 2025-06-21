@@ -34,6 +34,7 @@ nav:
   - Guide:
     - Getting Started: getting_started.md
     - Flashing: flashing.md
+    - Config Reference: config_reference.md
   - Troubleshooting : troubleshooting.md
   - Specifications: specifications.md
   - Known Issues: known_issues.md
