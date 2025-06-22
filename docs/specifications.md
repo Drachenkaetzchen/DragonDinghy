@@ -6,8 +6,8 @@
     * 5 Inputs best suited for 100k NTCs, like Generic 3950 or ATC Semitec
     * 4 Inputs best suited for PT1000
 * 4 Fan Outputs
-    * 2 GND-switched PWM fan ports with optional tachometer support, 500mA per port
-    * 2 4-pin Fan Ports, 1A maximum per port
+    * 2 GND-switched PWM fan ports with optional tachometer support, 1 A per port
+    * 2 4-pin Fan Ports, 2 A maximum per port
     * Each fan output supports 5V, 12V and 24V fans
 * 4 RGB Outputs (compatible with WS2812B, SK6812 and Adafruit Neopixel)
     * Integrated diagnostic SK6812 RGB LED  
