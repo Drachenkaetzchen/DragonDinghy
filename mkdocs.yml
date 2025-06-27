@@ -34,6 +34,7 @@ nav:
   - Guide:
     - Getting Started: getting_started.md
     - Flashing: flashing.md
+    - Fans: fans.md
     - Config Reference: config_reference.md
   - Troubleshooting : troubleshooting.md
   - Specifications: specifications.md
@@ -42,10 +43,22 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - tables
   - md_in_html
   - attr_list
   - abbr
+  - def_list
   - footnotes
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.snippets:
