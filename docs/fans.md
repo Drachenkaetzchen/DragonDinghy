@@ -2,6 +2,8 @@
 
 This section explains how to figure out what fan you have, and where to connect it.
 
+![Fan Section Overview](images/FanSection.png)
+
 ## Before connecting the fan
 
 Prior connecting, ensure that the fan's maximum current is below the current of 1A (Fan 0/1) or 2A (Fan 2/3).
@@ -19,7 +21,7 @@ Prior connecting, ensure that the fan's maximum current is below the current of 
 
 Use a jumper to select the voltage as indicated below.
 
-![Board Diagram](images/FanVoltageSelector.png)
+![Fan Voltage Jumper](images/FanVoltageSelector.png)
 
 ## 2-Wire Fans
 
@@ -107,7 +109,7 @@ tachometer_pin: dinghy:PC14
 
 
 ### 3-Wire Fans with PWM
-For 3-wire fans with pwm, you can use Fan 2 and Fan 3. The PWM connector position stays empty in this scenario.
+For 3-wire fans with pwm, you can use Fan 2 and Fan 3. The TACH connector position stays empty in this scenario.
 
 | Wire Color (typical)                          | Fan 2       | Fan 3       |
 |-----------------------------------------------|-------------|-------------|
