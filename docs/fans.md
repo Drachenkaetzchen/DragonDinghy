@@ -34,8 +34,8 @@ You can connect these fans to the 3 pin fan headers (Fan 0 and Fan 1):
 
 | Wire Color (typical) | Fan 0    | Fan 1    |
 |----------------------|----------|----------|
-| Red                  | F- (PA8) | F- (PB4) |
-| Black                | F+       | F+       |
+| Black                | F- (PA8) | F- (PB4) |
+| Red                  | F+       | F+       |
 
 The third connector (TACH) is not used in this scenario.
 
@@ -67,8 +67,8 @@ For 3-wire fans with tachometers, you can use Fan 0 and Fan 1:
 
 | Wire Color (typical)                            | Fan 0       | Fan 1       |
 |-------------------------------------------------|-------------|-------------|
-| Red                                             | F- (PA8)    | F- (PB4)    |
-| Black                                           | F+          | F+          |
+| Black                                           | F- (PA8)    | F- (PB4)    |
+| Red                                             | F+          | F+          |
 | Blue (Delta), White (Orion), Yellow (GdsTime)   | TACH (PC13) | TACH (PC14) |
 
 !!! note
@@ -113,8 +113,8 @@ For 3-wire fans with pwm, you can use Fan 2 and Fan 3. The TACH connector positi
 
 | Wire Color (typical)                          | Fan 2       | Fan 3       |
 |-----------------------------------------------|-------------|-------------|
-| Red                                           | F-          | F-          |
-| Black                                         | F+          | F+          |
+| Black                                         | F-          | F-          |
+| Red                                           | F+          | F+          |
 | Yellow (Delta), Blue (GdsTime, Orion)         | PWM (PA4)   | PWM (PB14 ) |
 
 
@@ -138,8 +138,8 @@ These fans go to the Fan 2 and Fan 3 connectors:
 
 | Wire Color (typical)                          | Fan 2       | Fan 3       |
 |-----------------------------------------------|-------------|-------------|
-| Red                                           | F-          | F-          |
-| Black                                         | F+          | F+          |
+| Black                                         | F-          | F-          |
+| Red                                           | F+          | F+          |
 | Blue (Delta), White (Orion), Yellow (GdsTime) | TACH (PC15) | TACH (PB15) |
 | Yellow (Delta), Blue (GdsTime, Orion)         | PWM (PA4)   | PWM (PB14)  |
 
